@@ -35,6 +35,8 @@ class CarClient : public rclcpp :: Node {
         }
     
     private:
+        rclcpp :: Client <lr_interfaces :: srv :: Climb> :: SharedPtr client_;
+
         void response_callback (rclcpp :: Client <lr_interfaces :: srv :: Climb> :: SharedFuture future) {
             auto response = future.get ();
             RCLCPP_INFO (
@@ -43,8 +45,6 @@ class CarClient : public rclcpp :: Node {
                 response -> days, response -> current_height
             );
         }
-
-        rclcpp :: Client <lr_interfaces :: srv :: Climb> :: SharedPtr client_;
 };
 
 int main (int argc, char ** argv) {
