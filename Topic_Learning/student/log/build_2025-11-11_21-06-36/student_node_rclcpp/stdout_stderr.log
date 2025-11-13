@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/student_node.dir/src/student_node.cpp.o[0m
+[01m[K/home/rc-005/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:[m[K In member function ‘[01m[Kvoid Student_Node::receive_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rc-005/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:42:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   42 |         void receive_callback ([01;35m[Kconst std_msgs :: msg :: String :: SharedPtr msg[m[K) {
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable student_node[0m
+[100%] Built target student_node
+-- Install configuration: ""
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/ament_index/resource_index/package_run_dependencies/student_node_rclcpp
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/ament_index/resource_index/parent_prefix_path/student_node_rclcpp
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/path.sh
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/path.dsv
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.bash
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.sh
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.zsh
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.dsv
+-- Installing: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/package.dsv
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/ament_index/resource_index/packages/student_node_rclcpp
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/cmake/student_node_rclcppConfig.cmake
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/cmake/student_node_rclcppConfig-version.cmake
+-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/package.xml
+-- Installing: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/lib/student_node_rclcpp/student_node
+-- Set runtime path of "/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/lib/student_node_rclcpp/student_node" to ""

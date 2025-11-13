@@ -1,0 +1,30 @@
+[0.008s] Invoking command in '/home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp -- -j8 -l8
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/student_node.dir/src/student_node.cpp.o[0m
+[1.936s] [01m[K/home/rc-005/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:[m[K In member function ‘[01m[Kvoid Student_Node::receive_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.936s] [01m[K/home/rc-005/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:42:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.936s]    42 | void receive_callback ([01;35m[Kconst std_msgs :: msg :: String :: SharedPtr msg[m[K) {
+[1.936s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.936s] 
+[6.855s] [100%] [32m[1mLinking CXX executable student_node[0m
+[7.193s] [100%] Built target student_node
+[7.202s] Invoked command in '/home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp -- -j8 -l8
+[7.209s] Invoking command in '/home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp
+[7.215s] -- Install configuration: ""
+[7.215s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/ament_index/resource_index/package_run_dependencies/student_node_rclcpp
+[7.215s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/ament_index/resource_index/parent_prefix_path/student_node_rclcpp
+[7.215s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/ament_prefix_path.sh
+[7.215s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/ament_prefix_path.dsv
+[7.216s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/path.sh
+[7.216s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/path.dsv
+[7.216s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.bash
+[7.216s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.sh
+[7.216s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.zsh
+[7.216s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.dsv
+[7.216s] -- Installing: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/package.dsv
+[7.216s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/ament_index/resource_index/packages/student_node_rclcpp
+[7.216s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/cmake/student_node_rclcppConfig.cmake
+[7.216s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/cmake/student_node_rclcppConfig-version.cmake
+[7.216s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/package.xml
+[7.216s] -- Installing: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/lib/student_node_rclcpp/student_node
+[7.218s] -- Set runtime path of "/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/lib/student_node_rclcpp/student_node" to ""
+[7.219s] Invoked command in '/home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp

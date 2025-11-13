@@ -1,0 +1,2 @@
+source;share/niluo_node_rclcpp/environment/ament_prefix_path.sh
+source;share/niluo_node_rclcpp/environment/path.sh

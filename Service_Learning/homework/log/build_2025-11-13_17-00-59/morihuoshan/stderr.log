@@ -1,0 +1,8 @@
+[01m[K/home/rc1/STrAduts/ConQU/Service_Learning/homework/src/morihuoshan/src/car_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rc1/STrAduts/ConQU/Service_Learning/homework/src/morihuoshan/src/car_client.cpp:58:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K->[m[K’ token
+   58 |     CarClient [01;31m[K->[m[K send_request (target_height);
+      |               [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/car_client.dir/build.make:76: CMakeFiles/car_client.dir/src/car_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/car_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,30 @@
+[0.008s] Invoking command in '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan -- -j8 -l8
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target car_client[0m
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target car_service[0m
+[0.053s] [ 50%] Built target car_service
+[0.054s] [ 75%] [32mBuilding CXX object CMakeFiles/car_client.dir/src/car_client.cpp.o[0m
+[2.888s] [100%] [32m[1mLinking CXX executable car_client[0m
+[3.017s] [100%] Built target car_client
+[3.025s] Invoked command in '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan -- -j8 -l8
+[3.033s] Invoking command in '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan
+[3.039s] -- Install configuration: ""
+[3.039s] -- Installing: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/lib/morihuoshan/car_service
+[3.040s] -- Set runtime path of "/home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/lib/morihuoshan/car_service" to ""
+[3.040s] -- Installing: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/lib/morihuoshan/car_client
+[3.040s] -- Set runtime path of "/home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/lib/morihuoshan/car_client" to ""
+[3.040s] -- Up-to-date: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/ament_index/resource_index/package_run_dependencies/morihuoshan
+[3.040s] -- Installing: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/ament_index/resource_index/parent_prefix_path/morihuoshan
+[3.040s] -- Up-to-date: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/morihuoshan/environment/ament_prefix_path.sh
+[3.040s] -- Installing: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/morihuoshan/environment/ament_prefix_path.dsv
+[3.040s] -- Up-to-date: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/morihuoshan/environment/path.sh
+[3.040s] -- Installing: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/morihuoshan/environment/path.dsv
+[3.041s] -- Up-to-date: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/morihuoshan/local_setup.bash
+[3.041s] -- Up-to-date: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/morihuoshan/local_setup.sh
+[3.041s] -- Up-to-date: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/morihuoshan/local_setup.zsh
+[3.041s] -- Installing: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/morihuoshan/local_setup.dsv
+[3.041s] -- Installing: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/morihuoshan/package.dsv
+[3.041s] -- Up-to-date: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/ament_index/resource_index/packages/morihuoshan
+[3.041s] -- Up-to-date: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/morihuoshan/cmake/morihuoshanConfig.cmake
+[3.041s] -- Up-to-date: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/morihuoshan/cmake/morihuoshanConfig-version.cmake
+[3.041s] -- Up-to-date: /home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan/share/morihuoshan/package.xml
+[3.042s] Invoked command in '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan

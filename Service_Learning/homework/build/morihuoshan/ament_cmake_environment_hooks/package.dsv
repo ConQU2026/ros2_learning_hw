@@ -1,0 +1,4 @@
+source;share/morihuoshan/local_setup.bash
+source;share/morihuoshan/local_setup.dsv
+source;share/morihuoshan/local_setup.sh
+source;share/morihuoshan/local_setup.zsh

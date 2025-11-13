@@ -1,0 +1,16 @@
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/ament_index/resource_index/package_run_dependencies/student_node_rclcpp
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/ament_index/resource_index/parent_prefix_path/student_node_rclcpp
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/ament_prefix_path.sh
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/ament_prefix_path.dsv
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/path.sh
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/path.dsv
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.bash
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.sh
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.zsh
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.dsv
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/package.dsv
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/ament_index/resource_index/packages/student_node_rclcpp
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/cmake/student_node_rclcppConfig.cmake
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/cmake/student_node_rclcppConfig-version.cmake
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/package.xml
+/home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/lib/student_node_rclcpp/student_node

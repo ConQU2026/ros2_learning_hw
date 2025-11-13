@@ -1,0 +1,23 @@
+[0.008s] Invoking command in '/home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp -- -j8 -l8
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target student_node[0m
+[0.055s] [100%] Built target student_node
+[0.066s] Invoked command in '/home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp -- -j8 -l8
+[0.074s] Invoking command in '/home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp
+[0.080s] -- Install configuration: ""
+[0.080s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/ament_index/resource_index/package_run_dependencies/student_node_rclcpp
+[0.080s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/ament_index/resource_index/parent_prefix_path/student_node_rclcpp
+[0.080s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/ament_prefix_path.sh
+[0.081s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/ament_prefix_path.dsv
+[0.081s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/path.sh
+[0.081s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/environment/path.dsv
+[0.081s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.bash
+[0.081s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.sh
+[0.081s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.zsh
+[0.081s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/local_setup.dsv
+[0.081s] -- Installing: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/package.dsv
+[0.081s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/ament_index/resource_index/packages/student_node_rclcpp
+[0.081s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/cmake/student_node_rclcppConfig.cmake
+[0.081s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/cmake/student_node_rclcppConfig-version.cmake
+[0.081s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/share/student_node_rclcpp/package.xml
+[0.081s] -- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/student/install/student_node_rclcpp/lib/student_node_rclcpp/student_node
+[0.082s] Invoked command in '/home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp

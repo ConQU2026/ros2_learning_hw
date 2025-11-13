@@ -1,0 +1,4 @@
+source;share/niluo_node_rclcpp/local_setup.bash
+source;share/niluo_node_rclcpp/local_setup.dsv
+source;share/niluo_node_rclcpp/local_setup.sh
+source;share/niluo_node_rclcpp/local_setup.zsh

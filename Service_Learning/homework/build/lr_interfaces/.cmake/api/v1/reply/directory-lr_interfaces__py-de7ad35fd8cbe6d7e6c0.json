@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lr_interfaces__py",
+		"source" : "/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/lr_interfaces/lr_interfaces__py"
+	}
+}

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lr_interfaces/srv/Climb.srv
+// generated code does not contain a copyright notice
+
+
+module lr_interfaces {
+  module srv {
+    struct Climb_Request {
+      double target_height;
+    };
+    struct Climb_Response {
+      double current_height;
+
+      int32 days;
+    };
+  };
+};

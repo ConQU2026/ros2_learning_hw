@@ -1,0 +1,13 @@
+[Unit]
+Description = 检查 Git 是否安装并记录日志
+After = network.target
+
+[Service]
+ExecStart = /usr/local/bin/check_git.sh
+ExecStartPost = /bin/sleep 10
+Restart = no
+User = root
+Group = root
+
+[Install]
+WantedBy = multi-user.target

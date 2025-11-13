@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.000342] (niluo_node_rclcpp) JobQueued: {'identifier': 'niluo_node_rclcpp', 'dependencies': OrderedDict()}
+[0.000464] (niluo_node_rclcpp) JobStarted: {'identifier': 'niluo_node_rclcpp'}
+[0.006063] (niluo_node_rclcpp) JobProgress: {'identifier': 'niluo_node_rclcpp', 'progress': 'cmake'}
+[0.006511] (niluo_node_rclcpp) JobProgress: {'identifier': 'niluo_node_rclcpp', 'progress': 'build'}
+[0.006993] (niluo_node_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/build/niluo_node_rclcpp', '--', '-j8', '-l8'], 'cwd': '/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/build/niluo_node_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rc-005'), ('SSH_CLIENT', '10.231.103.165 52069 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rc-005/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rc-005/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rc-005'), ('OLDPWD', '/home/rc-005/STrAduts'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-be7448c5-efe9-479f-83fb-c9d8afbd7f34.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rc-005/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rc-005/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rc-005'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '15'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rc-005/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rc-005/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e751c09cd7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/build/niluo_node_rclcpp'), ('SSH_CONNECTION', '10.231.103.165 52069 192.168.1.153 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp:/opt/ros/humble')]), 'shell': False}
+[0.038903] (niluo_node_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target niluo_node\x1b[0m\n'}
+[0.051192] (niluo_node_rclcpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/niluo_node.dir/src/niluo_node.cpp.o\x1b[0m\n'}
+[0.099821] (-) TimerEvent: {}
+[0.200083] (-) TimerEvent: {}
+[0.300333] (-) TimerEvent: {}
+[0.400590] (-) TimerEvent: {}
+[0.500834] (-) TimerEvent: {}
+[0.601085] (-) TimerEvent: {}
+[0.701349] (-) TimerEvent: {}
+[0.801656] (-) TimerEvent: {}
+[0.901966] (-) TimerEvent: {}
+[1.002231] (-) TimerEvent: {}
+[1.102803] (-) TimerEvent: {}
+[1.203443] (-) TimerEvent: {}
+[1.303790] (-) TimerEvent: {}
+[1.404173] (-) TimerEvent: {}
+[1.504572] (-) TimerEvent: {}
+[1.604860] (-) TimerEvent: {}
+[1.705149] (-) TimerEvent: {}
+[1.805435] (-) TimerEvent: {}
+[1.905716] (-) TimerEvent: {}
+[2.005979] (-) TimerEvent: {}
+[2.106230] (-) TimerEvent: {}
+[2.206497] (-) TimerEvent: {}
+[2.306757] (-) TimerEvent: {}
+[2.406998] (-) TimerEvent: {}
+[2.507263] (-) TimerEvent: {}
+[2.607523] (-) TimerEvent: {}
+[2.707798] (-) TimerEvent: {}
+[2.808051] (-) TimerEvent: {}
+[2.908311] (-) TimerEvent: {}
+[3.008573] (-) TimerEvent: {}
+[3.108836] (-) TimerEvent: {}
+[3.209094] (-) TimerEvent: {}
+[3.309369] (-) TimerEvent: {}
+[3.409644] (-) TimerEvent: {}
+[3.509913] (-) TimerEvent: {}
+[3.610161] (-) TimerEvent: {}
+[3.710449] (-) TimerEvent: {}
+[3.810737] (-) TimerEvent: {}
+[3.911490] (-) TimerEvent: {}
+[4.011883] (-) TimerEvent: {}
+[4.112233] (-) TimerEvent: {}
+[4.212600] (-) TimerEvent: {}
+[4.312869] (-) TimerEvent: {}
+[4.413141] (-) TimerEvent: {}
+[4.513458] (-) TimerEvent: {}
+[4.613754] (-) TimerEvent: {}
+[4.714020] (-) TimerEvent: {}
+[4.814259] (-) TimerEvent: {}
+[4.914510] (-) TimerEvent: {}
+[5.014761] (-) TimerEvent: {}
+[5.114994] (-) TimerEvent: {}
+[5.215236] (-) TimerEvent: {}
+[5.315509] (-) TimerEvent: {}
+[5.415768] (-) TimerEvent: {}
+[5.516000] (-) TimerEvent: {}
+[5.616250] (-) TimerEvent: {}
+[5.716509] (-) TimerEvent: {}
+[5.816754] (-) TimerEvent: {}
+[5.917087] (-) TimerEvent: {}
+[6.017351] (-) TimerEvent: {}
+[6.117607] (-) TimerEvent: {}
+[6.217867] (-) TimerEvent: {}
+[6.318138] (-) TimerEvent: {}
+[6.418466] (-) TimerEvent: {}
+[6.518863] (-) TimerEvent: {}
+[6.619358] (-) TimerEvent: {}
+[6.718473] (niluo_node_rclcpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable niluo_node\x1b[0m\n'}
+[6.719448] (-) TimerEvent: {}
+[6.819980] (-) TimerEvent: {}
+[6.920385] (-) TimerEvent: {}
+[7.020783] (-) TimerEvent: {}
+[7.056432] (niluo_node_rclcpp) StdoutLine: {'line': b'[100%] Built target niluo_node\n'}
+[7.064986] (niluo_node_rclcpp) CommandEnded: {'returncode': 0}
+[7.065445] (niluo_node_rclcpp) JobProgress: {'identifier': 'niluo_node_rclcpp', 'progress': 'install'}
+[7.072056] (niluo_node_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/build/niluo_node_rclcpp'], 'cwd': '/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/build/niluo_node_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rc-005'), ('SSH_CLIENT', '10.231.103.165 52069 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rc-005/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rc-005/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rc-005'), ('OLDPWD', '/home/rc-005/STrAduts'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-be7448c5-efe9-479f-83fb-c9d8afbd7f34.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rc-005/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rc-005/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rc-005'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '15'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rc-005/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rc-005/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e751c09cd7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/build/niluo_node_rclcpp'), ('SSH_CONNECTION', '10.231.103.165 52069 192.168.1.153 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp:/opt/ros/humble')]), 'shell': False}
+[7.078139] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.078538] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/ament_index/resource_index/package_run_dependencies/niluo_node_rclcpp\n'}
+[7.078603] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/ament_index/resource_index/parent_prefix_path/niluo_node_rclcpp\n'}
+[7.078650] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/niluo_node_rclcpp/environment/ament_prefix_path.sh\n'}
+[7.078693] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/niluo_node_rclcpp/environment/ament_prefix_path.dsv\n'}
+[7.078738] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/niluo_node_rclcpp/environment/path.sh\n'}
+[7.078804] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/niluo_node_rclcpp/environment/path.dsv\n'}
+[7.078846] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/niluo_node_rclcpp/local_setup.bash\n'}
+[7.078885] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/niluo_node_rclcpp/local_setup.sh\n'}
+[7.078936] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/niluo_node_rclcpp/local_setup.zsh\n'}
+[7.078973] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/niluo_node_rclcpp/local_setup.dsv\n'}
+[7.079012] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Installing: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/niluo_node_rclcpp/package.dsv\n'}
+[7.079050] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/ament_index/resource_index/packages/niluo_node_rclcpp\n'}
+[7.079090] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/niluo_node_rclcpp/cmake/niluo_node_rclcppConfig.cmake\n'}
+[7.079128] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/niluo_node_rclcpp/cmake/niluo_node_rclcppConfig-version.cmake\n'}
+[7.079165] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/share/niluo_node_rclcpp/package.xml\n'}
+[7.079203] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Installing: /home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/lib/niluo_node_rclcpp/niluo_node\n'}
+[7.080865] (niluo_node_rclcpp) StdoutLine: {'line': b'-- Set runtime path of "/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/install/niluo_node_rclcpp/lib/niluo_node_rclcpp/niluo_node" to ""\n'}
+[7.082219] (niluo_node_rclcpp) CommandEnded: {'returncode': 0}
+[7.094963] (niluo_node_rclcpp) JobEnded: {'identifier': 'niluo_node_rclcpp', 'rc': 0}
+[7.095524] (-) EventReactorShutdown: {}

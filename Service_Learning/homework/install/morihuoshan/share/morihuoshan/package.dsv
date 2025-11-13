@@ -1,0 +1,8 @@
+source;share/morihuoshan/hook/cmake_prefix_path.ps1
+source;share/morihuoshan/hook/cmake_prefix_path.dsv
+source;share/morihuoshan/hook/cmake_prefix_path.sh
+source;share/morihuoshan/local_setup.bash
+source;share/morihuoshan/local_setup.dsv
+source;share/morihuoshan/local_setup.ps1
+source;share/morihuoshan/local_setup.sh
+source;share/morihuoshan/local_setup.zsh

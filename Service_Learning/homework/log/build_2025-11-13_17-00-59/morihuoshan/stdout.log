@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target car_service[0m
+[35m[1mConsolidate compiler generated dependencies of target car_client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/car_service.dir/src/car_service.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/car_client.dir/src/car_client.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable car_service[0m
+[ 75%] Built target car_service
