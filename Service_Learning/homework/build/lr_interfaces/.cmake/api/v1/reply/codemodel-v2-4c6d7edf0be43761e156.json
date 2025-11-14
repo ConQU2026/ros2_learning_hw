@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-343828cc47ad22aceae3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "lr_interfaces__py",
+					"jsonFile" : "directory-lr_interfaces__py-de7ad35fd8cbe6d7e6c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/lr_interfaces/lr_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lr_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_lr_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_lr_interfaces_egg-25f520ffb0a0dcf6cfb6.json",
+					"name" : "ament_cmake_python_build_lr_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_lr_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_lr_interfaces-a9602a8ba07c3c3ddda3.json",
+					"name" : "ament_cmake_python_copy_lr_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces-697e49c0abba73932443.json",
+					"name" : "lr_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces__cpp-a34db8afd9f2b89d16e3.json",
+					"name" : "lr_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lr_interfaces__py::@f5c497ccece949016a27",
+					"jsonFile" : "target-lr_interfaces__py-1635c23c07aaa11ae161.json",
+					"name" : "lr_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces__rosidl_generator_c-377821b452323a066b48.json",
+					"name" : "lr_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces__rosidl_generator_py-63f61dd54afb0ba258aa.json",
+					"name" : "lr_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces__rosidl_typesupport_c-aeca13223590412eebfd.json",
+					"name" : "lr_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces__rosidl_typesupport_c__pyext-b9f4a8ca8e318b6cf992.json",
+					"name" : "lr_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces__rosidl_typesupport_cpp-40e72d3d14f74c9bc521.json",
+					"name" : "lr_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces__rosidl_typesupport_fastrtps_c-4cece6e83f8d16694997.json",
+					"name" : "lr_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces__rosidl_typesupport_fastrtps_c__pyext-7a7f8fdb9543824746e6.json",
+					"name" : "lr_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces__rosidl_typesupport_fastrtps_cpp-9932efb0a062c5b59148.json",
+					"name" : "lr_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces__rosidl_typesupport_introspection_c-43009cf0426e5e58d1ed.json",
+					"name" : "lr_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces__rosidl_typesupport_introspection_c__pyext-aec896a425e15be3869c.json",
+					"name" : "lr_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces__rosidl_typesupport_introspection_cpp-9ae7b1a6ed83e2ba5364.json",
+					"name" : "lr_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_interfaces_uninstall-da2be463cda6a7020d1b.json",
+					"name" : "lr_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ae2613d6d436250a32c7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/lr_interfaces",
+		"source" : "/home/rc1/STrAduts/ConQU/Service_Learning/homework/src/lr_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

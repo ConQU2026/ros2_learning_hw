@@ -40,7 +40,7 @@ class Student_Node : public rclcpp :: Node {
 
         // 收到话题数据的回调函数
         void receive_callback (const std_msgs :: msg :: String :: SharedPtr msg) {
-            
+            msg;
         }
         rclcpp :: Subscription <std_msgs :: msg :: String> :: SharedPtr subscribe_;
 };

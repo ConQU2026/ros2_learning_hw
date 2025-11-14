@@ -1,2 +1,0 @@
-Invoking command in '/home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp -- -j8 -l8
-Invoked command in '/home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rc-005/STrAduts/ConQU/Topic_Learning/student/build/student_node_rclcpp -- -j8 -l8

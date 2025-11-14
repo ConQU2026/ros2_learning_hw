@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000253] (lr_interfaces) JobQueued: {'identifier': 'lr_interfaces', 'dependencies': OrderedDict()}
+[0.000378] (morihuoshan) JobQueued: {'identifier': 'morihuoshan', 'dependencies': OrderedDict()}
+[0.000393] (lr_interfaces) JobStarted: {'identifier': 'lr_interfaces'}
+[0.003762] (morihuoshan) JobStarted: {'identifier': 'morihuoshan'}
+[0.006430] (lr_interfaces) JobProgress: {'identifier': 'lr_interfaces', 'progress': 'cmake'}
+[0.006848] (lr_interfaces) JobProgress: {'identifier': 'lr_interfaces', 'progress': 'build'}
+[0.007328] (lr_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/lr_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/lr_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rc1'), ('SSH_CLIENT', '10.231.121.199 12827 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rc1/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rc1/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rc1'), ('OLDPWD', '/home/rc1/STrAduts/ConQU/Service_Learning'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-95c4adac-4855-45fc-b143-167ed25303c9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rc1/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rc1/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rc1/STrAduts/ConQU/Service_Learning/homework/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rc1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '84'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rc1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rc1/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rc1/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-62b3dc2c2a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/lr_interfaces'), ('SSH_CONNECTION', '10.231.121.199 12827 192.168.1.153 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.009578] (morihuoshan) JobProgress: {'identifier': 'morihuoshan', 'progress': 'cmake'}
+[0.010294] (morihuoshan) Command: {'cmd': ['/usr/bin/cmake', '/home/rc1/STrAduts/ConQU/Service_Learning/homework/src/morihuoshan', '-DCMAKE_INSTALL_PREFIX=/home/rc1/STrAduts/ConQU/Service_Learning/homework/install/morihuoshan'], 'cwd': '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rc1'), ('SSH_CLIENT', '10.231.121.199 12827 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rc1/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rc1/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rc1'), ('OLDPWD', '/home/rc1/STrAduts/ConQU/Service_Learning'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-95c4adac-4855-45fc-b143-167ed25303c9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rc1/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rc1/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rc1/STrAduts/ConQU/Service_Learning/homework/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rc1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '84'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rc1/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rc1/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rc1/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-62b3dc2c2a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan'), ('SSH_CONNECTION', '10.231.121.199 12827 192.168.1.153 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.018659] (morihuoshan) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.034787] (lr_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.041443] (lr_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.047675] (lr_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_lr_interfaces\n'}
+[0.099618] (-) TimerEvent: {}
+[0.116192] (morihuoshan) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.142649] (morihuoshan) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.144345] (morihuoshan) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.148420] (morihuoshan) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.154962] (morihuoshan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.163442] (morihuoshan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.185876] (morihuoshan) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.186776] (morihuoshan) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199696] (-) TimerEvent: {}
+[0.211362] (lr_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.211999] (lr_interfaces) StdoutLine: {'line': b'creating lr_interfaces.egg-info\n'}
+[0.212152] (lr_interfaces) StdoutLine: {'line': b'writing lr_interfaces.egg-info/PKG-INFO\n'}
+[0.212306] (lr_interfaces) StdoutLine: {'line': b'writing dependency_links to lr_interfaces.egg-info/dependency_links.txt\n'}
+[0.212433] (lr_interfaces) StdoutLine: {'line': b'writing top-level names to lr_interfaces.egg-info/top_level.txt\n'}
+[0.212625] (lr_interfaces) StdoutLine: {'line': b"writing manifest file 'lr_interfaces.egg-info/SOURCES.txt'\n"}
+[0.214279] (lr_interfaces) StdoutLine: {'line': b"reading manifest file 'lr_interfaces.egg-info/SOURCES.txt'\n"}
+[0.214715] (lr_interfaces) StdoutLine: {'line': b"writing manifest file 'lr_interfaces.egg-info/SOURCES.txt'\n"}
+[0.237642] (lr_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_lr_interfaces_egg\n'}
+[0.252187] (lr_interfaces) StdoutLine: {'line': b'[  6%] Built target lr_interfaces__cpp\n'}
+[0.259465] (lr_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.259671] (lr_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.260171] (morihuoshan) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.261280] (lr_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.267256] (lr_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/lr_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lr_interfaces/srv/detail/climb__functions.c.o\x1b[0m\n'}
+[0.299800] (-) TimerEvent: {}
+[0.307460] (lr_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library liblr_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[0.332781] (morihuoshan) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[0.333130] (morihuoshan) StderrLine: {'line': b'  By not providing "Findlr_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.333212] (morihuoshan) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.333282] (morihuoshan) StderrLine: {'line': b'  "lr_interfaces", but CMake did not find one.\n'}
+[0.333351] (morihuoshan) StderrLine: {'line': b'\n'}
+[0.333420] (morihuoshan) StderrLine: {'line': b'  Could not find a package configuration file provided by "lr_interfaces"\n'}
+[0.333490] (morihuoshan) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.333559] (morihuoshan) StderrLine: {'line': b'\n'}
+[0.333626] (morihuoshan) StderrLine: {'line': b'    lr_interfacesConfig.cmake\n'}
+[0.333709] (morihuoshan) StderrLine: {'line': b'    lr_interfaces-config.cmake\n'}
+[0.333779] (morihuoshan) StderrLine: {'line': b'\n'}
+[0.333848] (morihuoshan) StderrLine: {'line': b'  Add the installation prefix of "lr_interfaces" to CMAKE_PREFIX_PATH or set\n'}
+[0.333918] (morihuoshan) StderrLine: {'line': b'  "lr_interfaces_DIR" to a directory containing one of the above files.  If\n'}
+[0.333986] (morihuoshan) StderrLine: {'line': b'  "lr_interfaces" provides a separate development package or SDK, be sure it\n'}
+[0.334054] (morihuoshan) StderrLine: {'line': b'  has been installed.\n'}
+[0.334122] (morihuoshan) StderrLine: {'line': b'\n'}
+[0.334192] (morihuoshan) StderrLine: {'line': b'\x1b[0m\n'}
+[0.334262] (morihuoshan) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.334343] (morihuoshan) StdoutLine: {'line': b'See also "/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan/CMakeFiles/CMakeOutput.log".\n'}
+[0.337806] (lr_interfaces) StdoutLine: {'line': b'[ 22%] Built target lr_interfaces__rosidl_generator_c\n'}
+[0.342383] (morihuoshan) CommandEnded: {'returncode': 1}
+[0.343243] (lr_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.343388] (lr_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.345765] (lr_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[0.363059] (morihuoshan) JobEnded: {'identifier': 'morihuoshan', 'rc': 1}
+[0.399902] (-) TimerEvent: {}
+[0.446359] (lr_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/lr_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lr_interfaces/srv/climb__type_support.cpp.o\x1b[0m\n'}
+[0.468770] (lr_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/lr_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lr_interfaces/srv/detail/dds_fastrtps/climb__type_support.cpp.o\x1b[0m\n'}
+[0.500002] (-) TimerEvent: {}
+[0.584770] (lr_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/lr_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lr_interfaces/srv/detail/climb__type_support.cpp.o\x1b[0m\n'}
+[0.600109] (-) TimerEvent: {}
+[0.637981] (lr_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/lr_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lr_interfaces/srv/detail/climb__type_support.c.o\x1b[0m\n'}
+[0.649688] (lr_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/lr_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/lr_interfaces/srv/climb__type_support.cpp.o\x1b[0m\n'}
+[0.668538] (lr_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library liblr_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[0.672297] (lr_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library liblr_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[0.679200] (lr_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library liblr_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[0.683710] (lr_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/lr_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lr_interfaces/srv/detail/climb__type_support_c.cpp.o\x1b[0m\n'}
+[0.700240] (-) TimerEvent: {}
+[0.700756] (lr_interfaces) StdoutLine: {'line': b'[ 61%] Built target lr_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.711942] (lr_interfaces) StdoutLine: {'line': b'[ 61%] Built target lr_interfaces__rosidl_typesupport_cpp\n'}
+[0.720484] (lr_interfaces) StdoutLine: {'line': b'[ 61%] Built target lr_interfaces__rosidl_typesupport_c\n'}
+[0.769021] (lr_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library liblr_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[0.800375] (-) TimerEvent: {}
+[0.829163] (lr_interfaces) StdoutLine: {'line': b'[ 64%] Built target lr_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.891751] (lr_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library liblr_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[0.900475] (-) TimerEvent: {}
+[0.919863] (lr_interfaces) StdoutLine: {'line': b'[ 67%] Built target lr_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.932184] (lr_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library liblr_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[0.984995] (lr_interfaces) StdoutLine: {'line': b'[ 70%] Built target lr_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.998312] (lr_interfaces) StdoutLine: {'line': b'[ 70%] Built target lr_interfaces\n'}
+[1.000560] (-) TimerEvent: {}
+[1.011814] (lr_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.100752] (-) TimerEvent: {}
+[1.201062] (-) TimerEvent: {}
+[1.247767] (lr_interfaces) StdoutLine: {'line': b'[ 74%] Built target lr_interfaces__py\n'}
+[1.260653] (lr_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/lr_interfaces__rosidl_generator_py.dir/rosidl_generator_py/lr_interfaces/srv/_climb_s.c.o\x1b[0m\n'}
+[1.301184] (-) TimerEvent: {}
+[1.327927] (lr_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lr_interfaces/liblr_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[1.354257] (lr_interfaces) StdoutLine: {'line': b'[ 80%] Built target lr_interfaces__rosidl_generator_py\n'}
+[1.367559] (lr_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/lr_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lr_interfaces/_lr_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.367717] (lr_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/lr_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lr_interfaces/_lr_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.367779] (lr_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/lr_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lr_interfaces/_lr_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.401322] (-) TimerEvent: {}
+[1.432242] (lr_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lr_interfaces/lr_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.432433] (lr_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lr_interfaces/lr_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.433979] (lr_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lr_interfaces/lr_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.455069] (lr_interfaces) StdoutLine: {'line': b'[100%] Built target lr_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.455260] (lr_interfaces) StdoutLine: {'line': b'[100%] Built target lr_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.455625] (lr_interfaces) StdoutLine: {'line': b'[100%] Built target lr_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.463800] (lr_interfaces) JobEnded: {'identifier': 'lr_interfaces', 'rc': 'SIGINT'}
+[1.474192] (-) EventReactorShutdown: {}

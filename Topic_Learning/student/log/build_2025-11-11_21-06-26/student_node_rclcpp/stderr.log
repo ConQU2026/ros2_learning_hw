@@ -1,7 +1,0 @@
-[01m[K/home/rc-005/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ksrand: No such file or directory
-    3 | #include [01;31m[K<srand>[m[K
-      |          [01;31m[K^~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/student_node.dir/build.make:76: CMakeFiles/student_node.dir/src/student_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/student_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

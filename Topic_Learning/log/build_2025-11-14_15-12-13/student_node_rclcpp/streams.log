@@ -1,0 +1,59 @@
+[0.008s] Invoking command in '/home/rc1/STrAduts/ConQU/Topic_Learning/build/student_node_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rc1/STrAduts/ConQU/Topic_Learning/build/student_node_rclcpp -- -j8 -l8
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target student_node[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/student_node.dir/src/student_node.cpp.o[0m
+[1.599s] [01m[K/home/rc1/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:[m[K In member function ‘[01m[Kvoid Student_Node::receive_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.599s] [01m[K/home/rc1/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:43:19:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} and ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’})
+[1.599s]    43 |             msg = [01;31m[Kmsg[m[K;
+[1.599s]       |                   [01;31m[K^~~[m[K
+[1.599s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.599s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.599s]                  from [01m[K/home/rc1/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:1[m[K:
+[1.599s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = std_msgs::msg::String_<std::allocator<void> >; _Tp = std_msgs::msg::String_<std::allocator<void> >; std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> = std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >&][m[K’ (near match)
+[1.599s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[1.599s]       |         [01;36m[K^~~~~~~~[m[K
+[1.599s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst SharedPtr*[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[1.599s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = std_msgs::msg::String_<std::allocator<void> >][m[K’
+[1.599s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[1.599s]       |         [01;36m[K^~~~~~~~[m[K
+[1.600s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.600s] [01m[K/home/rc1/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:43:19:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::auto_ptr<_Up>[m[K’ and ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} have incompatible cv-qualifiers
+[1.600s]    43 |             msg = [01;36m[Kmsg[m[K;
+[1.600s]       |                   [01;36m[K^~~[m[K
+[1.600s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.600s]                  from [01m[K/home/rc1/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:1[m[K:
+[1.600s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = std_msgs::msg::String_<std::allocator<void> >][m[K’
+[1.600s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[1.600s]       |         [01;36m[K^~~~~~~~[m[K
+[1.600s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.600s] [01m[K/home/rc1/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:43:19:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} have incompatible cv-qualifiers
+[1.600s]    43 |             msg = [01;36m[Kmsg[m[K;
+[1.600s]       |                   [01;36m[K^~~[m[K
+[1.600s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.600s]                  from [01m[K/home/rc1/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:1[m[K:
+[1.600s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = std_msgs::msg::String_<std::allocator<void> >][m[K’
+[1.600s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[1.600s]       |         [01;36m[K^~~~~~~~[m[K
+[1.600s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.600s] [01m[K/home/rc1/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:43:19:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} have incompatible cv-qualifiers
+[1.600s]    43 |             msg = [01;36m[Kmsg[m[K;
+[1.600s]       |                   [01;36m[K^~~[m[K
+[1.600s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.601s]                  from [01m[K/home/rc1/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:1[m[K:
+[1.601s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = std_msgs::msg::String_<std::allocator<void> >][m[K’ (near match)
+[1.601s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[1.601s]       |                   [01;36m[K^~~~~~~~[m[K
+[1.601s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst SharedPtr*[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[1.601s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = std_msgs::msg::String_<std::allocator<void> >][m[K’ (near match)
+[1.601s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[1.601s]       |       [01;36m[K^~~~~~~~[m[K
+[1.601s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[1.601s] [01m[K/home/rc1/STrAduts/ConQU/Topic_Learning/student/src/student_node_rclcpp/src/student_node.cpp:43:19:[m[K [01;31m[Kerror: [m[Kcannot bind rvalue reference of type ‘[01m[Kstd::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >&&[m[K’ to lvalue of type ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’}
+[1.601s]    43 |             msg = [01;31m[Kmsg[m[K;
+[1.601s]       |                   [01;31m[K^~~[m[K
+[3.302s] gmake[2]: *** [CMakeFiles/student_node.dir/build.make:76: CMakeFiles/student_node.dir/src/student_node.cpp.o] Error 1
+[3.302s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/student_node.dir/all] Error 2
+[3.302s] gmake: *** [Makefile:146: all] Error 2
+[3.304s] Invoked command in '/home/rc1/STrAduts/ConQU/Topic_Learning/build/student_node_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rc1/STrAduts/ConQU/Topic_Learning/build/student_node_rclcpp -- -j8 -l8

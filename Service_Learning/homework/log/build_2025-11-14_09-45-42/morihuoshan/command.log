@@ -1,4 +1,0 @@
-Invoking command in '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan -- -j8 -l8
-Invoked command in '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan -- -j8 -l8
-Invoking command in '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan
-Invoked command in '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rc1/STrAduts/ConQU/Service_Learning/homework/build/morihuoshan

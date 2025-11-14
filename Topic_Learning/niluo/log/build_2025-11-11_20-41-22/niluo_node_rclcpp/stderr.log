@@ -1,7 +1,0 @@
-[01m[K/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/src/niluo_node_rclcpp/src/niluo_node.cpp:[m[K In constructor ‘[01m[KNiluo_Node::Niluo_Node(std::string)[m[K’:
-[01m[K/home/rc-005/STrAduts/ConQU/Topic_Learning/niluo/src/niluo_node_rclcpp/src/niluo_node.cpp:21:31:[m[K [01;31m[Kerror: [m[K‘[01m[KTopicSubscribe01[m[K’ has not been declared
-   21 |                 std :: bind (&[01;31m[KTopicSubscribe01[m[K :: command_callback, this, std :: placeholders :: _1)
-      |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/niluo_node.dir/build.make:76: CMakeFiles/niluo_node.dir/src/niluo_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/niluo_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

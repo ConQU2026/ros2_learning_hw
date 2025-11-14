@@ -1,0 +1,1 @@
+Invoking command in '/home/rc1/STrAduts/ConQU/Service_Learning/homework/build/lr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rc1/STrAduts/ConQU/Service_Learning/homework/src/lr_interfaces -DCMAKE_INSTALL_PREFIX=/home/rc1/STrAduts/ConQU/Service_Learning/homework/install/lr_interfaces
