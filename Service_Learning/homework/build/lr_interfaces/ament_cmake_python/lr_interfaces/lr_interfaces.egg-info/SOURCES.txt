@@ -4,3 +4,5 @@ lr_interfaces.egg-info/PKG-INFO
 lr_interfaces.egg-info/SOURCES.txt
 lr_interfaces.egg-info/dependency_links.txt
 lr_interfaces.egg-info/top_level.txt
+lr_interfaces/srv/__init__.py
+lr_interfaces/srv/_climb.py
